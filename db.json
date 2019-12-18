@@ -1,6 +1,6 @@
 {
   "geojson": [
-    {
+    { "id": 1,
   "type": "FeatureCollection",
   "features": [
     {
@@ -25,7 +25,7 @@
     }
   ]
 },
-    {
+    {"id": 2,
   "type": "FeatureCollection",
   "features": [
     {
