@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "geojson": [
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {"type": "Point", "coordinates": [13.871441, 47.405204]}
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {"type": "Point", "coordinates": [15.445747, 48.383276]}
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {"type": "Point", "coordinates": [15.269966, 47.5595]}
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {"type": "Point", "coordinates": [12.281685, 47.351501]}
+    }
+  ]
+},
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [20.411568, 48.470759],
+            [23.004341, 48.848112],
+            [23.883247, 49.280012],
+            [22.345161, 49.050133],
+            [26.476021, 50.887117],
+            [17.818794, 51.465665],
+            [20.323677, 49.850049],
+            [18.214302, 46.268783],
+            [23.268013, 46.116681],
+            [24.015083, 48.558091],
+            [20.411568, 48.470759]
+          ]
+        ]
+      }
+    }
+  ]
+}
+  ]
 }
